@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://images.hdqwalls.com/download/darth-revan-star-wars-4k-1a-1024x768.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 450px;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(255, 255, 255, 0.5);
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(35, 0, 233);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
